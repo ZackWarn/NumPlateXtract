@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumPlateXtract - AI-Powered License Plate Detection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">NumPlateXtract</div>
+            <div class="tagline">AI-Powered License Plate Detection & Recognition</div>
+            <div class="description">
+                <p>Upload any vehicle image and let our advanced AI technology automatically detect and extract license plate numbers with high accuracy. Perfect for parking management, security systems, and traffic monitoring applications.</p>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="upload-section">
+                <h2 class="section-title">📸 Upload Vehicle Image</h2>
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📷</div>
+                    <p>Drag & drop your image here or click to browse</p>
+                    <button class="upload-btn" >
+                        Choose Image
+                    </button>
+                    <input type="file" id="fileInput" class="file-input" accept="image/*">
+                    <img id="imagePreview" class="image-preview" alt="Preview">
+                </div>
+            </div>
+
+            <div class="results-section">
+                <h2 class="section-title">🔍 Detection Results</h2>
+                <div class="results-container" id="resultsContainer">
+                    <div class="no-results">
+                        Upload an image to detect license plates
+                    </div>
+                </div>
+                <div class="processing" id="processing">
+                    <div class="spinner"></div>
+                    <p>Processing image...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🚗</div>
+                <h3>Multi-Vehicle Support</h3>
+                <p>Detect plates on cars, trucks, motorcycles, and more</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Get results in seconds with our optimized AI engine</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>High Accuracy</h3>
+                <p>Advanced OCR technology for precise plate recognition</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Secure & Private</h3>
+                <p>Your images are processed locally and never stored</p>
+            </div>
+        </div>
+    </div>
+
+   
+
+   
+</body>
+</html>
